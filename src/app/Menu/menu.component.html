@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3 logo">
+          <img src="../app/assets/logo.png" alt="LOGO">
+        </div>
+        <div class="col-md-9 mainMenu">
+          <ul>
+            <li><a href=""  [routerLink]="['/home']" routerLinkActive="active">HOME</a></li>
+            <li><a href="" [routerLink]="['/about']" routerLinkActive="active">ABOUT ORDUSION</a></li>
+            <li>
+              <span class="dropdown-toggle my-toggle" data-toggle="dropdown">Services</span>
+              <ul class="dropdown-menu myDrop">
+                <li><a href="" [routerLink]="['/staff']" routerLinkActive="active">Staff Augmentation</a></li>
+                <li><a href="" [routerLink]="['/training']" routerLinkActive="active">Corporate Training</a></li>
+                <li><a href="" [routerLink]="['/testing']" routerLinkActive="active">Software Testing</a></li>
+                <li><a href="" [routerLink]="['/product']" routerLinkActive="active">Product Development</a></li>
+              </ul>
+            </li>
+            <li><a href="" [routerLink]="['/clients']" routerLinkActive="active">CLIENTS</a></li>
+            <li><a href="" [routerLink]="['/careers']" routerLinkActive="active">CAREERS</a></li>
+            <li><a href="" [routerLink]="['/contact']" routerLinkActive="active">CONTACT US</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+@import "../varsSass"
+.mainMenu
+  font-family: 'Titillium Web', sans-serif
+  ul
+    list-style: none
+    padding-top: 24px
+    li
+      display: inline-block
+      padding: 0 10px
+      a
+        color: #646464
+        font-weight: bolder
+        font-size: 18px
+        text-decoration: none
+        padding-bottom: 20px
+        &:hover
+          color: $blue-main
+          border-bottom: 3px solid $blue-main
+      .active
+        color: $blue-main
+        border-bottom: 3px solid $blue-main
+
+.owl-stage
+  background-color: red
+  height: 500px
+  background-size: cover
+.my-toggle
+  color: #646464
+  font-weight: bolder
+  font-size: 18px
+  text-decoration: none
+  padding-bottom: 20px
+  text-transform: uppercase
+  &:hover
+    color: $blue-main
+    border-bottom: 3px solid $blue-main
+    cursor: pointer
+
+.mainMenu
+  .dropdown-menu
+    li
+      a
+        &:hover
+          background-color: #fff!important
+          background-image: none
+          border: none
+
+.dropdown-menu
+  li
+    a
+      &:focus
+        background-color: #fff!important
+        background-image: none
+        border: none
+

@@ -1,0 +1,42 @@
+@import "../varsSass"
+p
+  margin: 0
+  padding: 0
+.footer-wrapper
+  background-color: #000000
+  margin-top: 50px
+  .copyrigth
+    color: white
+    p
+      padding: 25px 0
+    span
+      color: $blue-main
+  .social
+    p
+      padding: 20px 0
+      span
+        border-radius: 50%
+        color: black
+        background-color: lightgrey
+        padding: 5px 10px
+        margin: 0 5px
+        display: inline-block
+        vertical-align: middle
+        -webkit-transform: perspective(1px) translateZ(0)
+        transform: perspective(1px) translateZ(0)
+        box-shadow: 0 0 1px transparent
+        -webkit-transition-duration: 0.3s
+        transition-duration: 0.3s
+        -webkit-transition-property: transform
+        transition-property: transform
+        &:hover
+          background-color: #fff
+          cursor: pointer
+          -webkit-transform: scale(1.2)
+          -ms-transform: scale(1.2)
+          transform: scale(1.2)
+          display: inline-block
+        &:first-child
+          padding: 5px 12px
+        &:last-child
+          padding: 5px 7px
