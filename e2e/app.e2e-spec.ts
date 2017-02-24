@@ -1,10 +1,10 @@
-import { OrdusionTESTPage } from './app.po';
+import { Angular2SeedPage } from './app.po';
 
-describe('ordusion-test App', () => {
-  let page: OrdusionTESTPage;
+describe('angular2-seed App', function() {
+  let page: Angular2SeedPage;
 
   beforeEach(() => {
-    page = new OrdusionTESTPage();
+    page = new Angular2SeedPage();
   });
 
   it('should display message saying app works', () => {
